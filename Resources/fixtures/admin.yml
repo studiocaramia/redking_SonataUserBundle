@@ -1,0 +1,11 @@
+admin:
+    properties:
+        class: "Redking\Bundle\SonataUserBundle\Document\User"
+    data:
+        user:
+            username: admin
+            plainPassword: admin
+            email: damien.matabon@gmail.com
+            superAdmin: true
+            enabled: true
+

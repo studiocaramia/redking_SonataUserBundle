@@ -1,0 +1,29 @@
+{
+    "name": "redking/sonata-user-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony 2 ",
+    "keywords": [ "symfony2", "sonata", "user"],
+    "homepage": "https://bitbucket.org/redkingteam/redkingsonatauserbundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damien Matabon",
+            "homepage": "http://www.makemyweb.fr/",
+            "email": "damien.matabon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.3.3",
+        "sonata-project/user-bundle": "2.3.*@dev",
+        "redking/oauth-bundle": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "psr-0": { "Redking\\Bundle\\SonataUserBundle": "" }
+    },
+    "target-dir": "Redking/Bundle/SonataUserBundle"
+}
